@@ -1,0 +1,41 @@
+:root {
+  --background-color-01: rgb(5, 14, 55);
+  --txt-color: rgb(46, 71, 184);
+  --txt-hover: rgb(0, 0, 0);
+  --lines-color: rgb(43, 24, 81);
+}
+
+a:hover {
+  color: var(--txt-hover);
+  text-decoration: underline;
+}
+
+.title {
+  color: var(--txt-color);
+}
+
+hr {
+  border: 5px solid var(--lines-color);
+}
+
+.header {
+  background-color: var(--background-color-01);
+  color: var(--txt-color);
+  padding: 20px;
+  text-align: center;
+}
+
+.social-media {
+  color: var(--txt-color);
+  padding: 20px;
+  text-align: center;
+}
+
+#nav ul {
+  list-style-type: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 8px;
+}
