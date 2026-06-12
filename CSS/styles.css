@@ -42,4 +42,5 @@ hr {
 
 aside {
   background-color: rgb(54, 102, 132);
+  min-height: 300px;
 }
