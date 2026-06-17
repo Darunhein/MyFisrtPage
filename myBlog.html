@@ -22,10 +22,9 @@
     </header>
     <hr>
     <nav id="nav">
-      <ul>
-        <li><a href="./index.html">Back to Index</a></li>
-        <li><button onclick="alert('Hello There from js in line')" class="bt bt-primary">Js in line</button></li>
-      </ul>
+      <a href="./index.html">Back to Index</a>
+        <button onclick="alert('Hello There from js in line')" class="btn btn-primary">Js in line</button>
+        <button id="btn-block" class="btn btn-success">Js inside Block</button>
     </nav>
     <hr>
 
@@ -105,5 +104,16 @@
     </aside>
   </div>
     <footer></footer>
+    <script>
+      function showAlert(){
+        alert('Hello there from Js inside block')
+      }
+
+      //Call Button
+      const btnBlock = document.getElementById('btn-block');
+
+      //Give event to button
+      btnBlock.addEventListener('click', showAlert)
+    </script>
   </body>
 </html>
