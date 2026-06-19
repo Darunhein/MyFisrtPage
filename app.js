@@ -11,8 +11,6 @@ btnFile.addEventListener("click", showAlert2);
 
 ////////////////////////////////////////////VARIABLES
 
-var nombreVariable = "Cadena"; //No recomendable
-
 let segundaVariable = "Valor";
 
 console.log(typeof segundaVariable);
@@ -47,15 +45,16 @@ const alumno = {
   },
 };
 
-alumno = {};
-
-console.log(alumno);
-console.log(alumno2);
-
-//Cambiar valor de una propiedad
-/*alumno.nombre = "Darius";
-
-console.log(alumno.nombre);
-console.log(alumno.carrera.nombreCarrera);
-*/
 //////////////////////////////////////////ARREGLOS
+
+const arreglo = ["Mouse", "Teclado", "Bocinas"];
+
+console.log(arreglo[arreglo.length]);
+
+//agregar elementos
+arreglo.push("Monitor");
+console.log(arreglo);
+
+//agregar elementos
+arreglo.pop();
+console.log(arreglo);
